@@ -1,0 +1,18 @@
+.container_homepage{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 90vh;
+    background-image: url("./images/homepageCover.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_container_homepage{
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px rgb(238, 122, 68);
+}

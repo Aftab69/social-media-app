@@ -1,0 +1,25 @@
+.uploadPageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.previewImageDiv{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.previewImageDiv >img{
+   width: auto;
+   height: 60vh;
+}
+.submitFileButton:hover{
+    cursor: pointer;
+}
+
+/* for mobiles */
+@media (max-width: 480px) {
+    .previewImageDiv >img{
+        width: 60vw;
+        height: auto;
+     }
+}

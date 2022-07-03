@@ -1,0 +1,42 @@
+.container_loginpage{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 90vh;
+    background-image: url("./images/loginpageCover.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_container_loginpage{
+    box-sizing: border-box;
+    padding: 4%;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px rgb(238, 122, 68);
+    display: flex;
+    flex-direction: column;
+}
+.text_container_loginpage_each_element{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+}
+.text_container_loginpage_each_element>input{
+    align-self: center;
+    width: 100%;
+    height: 2vh;
+    position: relative;
+    left: 2%;
+}
+.text_container_loginpage>button{
+    width: 102%;
+    height: 3.5vh;
+    position: relative;
+    top: 0.5vh;
+    font-size: large;
+    font-weight: 500;
+}
+.text_container_loginpage>button:hover{
+    cursor: pointer;
+}

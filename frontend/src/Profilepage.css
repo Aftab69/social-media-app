@@ -1,0 +1,47 @@
+.uploadDiv{
+    top: 10vh;
+    height: 5vh;
+    background-color: rgb(49, 43, 43);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.uploadButton{
+    margin-right: 2vw;
+    font-size:medium;
+}
+.uploadButton:hover{
+    cursor: pointer;
+}
+.imagesShow{
+    background: url('./images/profilepagecover.jpg');
+    padding-bottom: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imageBox{
+    background-color: white;
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.imageBox>img{
+    height: 60vh;
+    width: auto;
+}
+/* for mobiles */
+@media (max-width: 480px) {
+    .imageBox>img{
+        width: 60vw;
+        height: auto;
+     }
+}
+@media (min-width: 481px) and (max-width:1024px) {
+    .imageBox>img{
+        width: 60vw;
+        height: auto;
+     }
+}
